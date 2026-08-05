@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Đạp Xe Hàng Ngày – Trải nghiệm thực tế từ người đi làm bằng xe đạp</title>
+  <meta name="description" content="Blog chia sẻ kinh nghiệm đạp xe đi làm 50km/ngày, tự bảo trì xe, review linh kiện và phụ kiện xe đạp dành cho người dùng phổ thông tại Việt Nam." />
+  <meta name="keywords" content="đạp xe đi làm, xe đạp hàng ngày, review xe đạp, bảo trì xe đạp, Giant Rincon, commuter cycling" />
+  <meta property="og:title" content="Đạp Xe Hàng Ngày" />
+  <meta property="og:description" content="Kinh nghiệm thực tế đạp xe đi làm mỗi ngày — không phải vận động viên, chỉ là người yêu xe đạp." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚴</text></svg>" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ========== NAVBAR ========== -->
+<nav class="navbar" role="navigation" aria-label="Menu chính">
+  <div class="container nav-inner">
+    <a href="index.html" class="nav-logo" aria-label="Về trang chủ Đạp Xe Hàng Ngày">
+      <div class="nav-logo-icon">🚴</div>
+      <div class="nav-logo-text">
+        Đạp Xe Hàng Ngày
+        <span class="nav-logo-sub">Trải nghiệm thực tế</span>
+      </div>
+    </a>
+
+    <ul class="nav-links" role="list">
+      <li><a href="index.html" class="active">Trang chủ</a></li>
+      <li><a href="blog.html">Bài viết</a></li>
+      <li><a href="reviews.html">Review</a></li>
+      <li><a href="guides.html">Hướng dẫn</a></li>
+      <li><a href="about.html">Về tôi</a></li>
+    </ul>
+
+    <a href="blog.html" class="btn btn-primary btn-sm nav-cta">Đọc bài mới</a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Mở menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<nav class="mobile-menu" id="mobileMenu" aria-label="Menu di động">
+  <a href="index.html">🏠 Trang chủ</a>
+  <a href="blog.html">📝 Bài viết</a>
+  <a href="reviews.html">⭐ Review sản phẩm</a>
+  <a href="guides.html">📚 Hướng dẫn</a>
+  <a href="about.html">👤 Về tôi</a>
+  <a href="legal/disclosure.html">⚖️ Chính sách liên kết</a>
+</nav>
+
+<!-- ========== HERO ========== -->
+<section class="hero" id="hero">
+  <div class="container">
+    <div class="hero-content">
+      <!-- Left: Text -->
+      <div class="hero-text">
+        <div class="hero-eyebrow">
+          <span>🚴</span> Từ tháng 8/2020 đến nay
+        </div>
+
+        <h1 class="hero-title">
+          Đạp xe mỗi ngày —<br />
+          không cần là<br />
+          <span class="highlight">vận động viên</span>
+        </h1>
+
+        <p class="hero-desc">
+          Tôi đạp xe đi làm hơn 50 km/ngày suốt 5+ năm. Trang này chia sẻ những gì tôi thực sự trải nghiệm: chọn xe, tự sửa chữa, và review linh kiện theo góc nhìn của người đi làm hàng ngày — không phải vận động viên.
+        </p>
+
+        <div class="hero-cta">
+          <a href="blog.html" class="btn btn-primary" id="hero-read-btn">
+            📖 Đọc bài viết
+          </a>
+          <a href="about.html" class="btn btn-outline" id="hero-about-btn">
+            Về tôi
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="hero-stat-item">
+            <span class="hero-stat-number" data-target="5" data-suffix="+ năm">0</span>
+            <span class="hero-stat-label">Kinh nghiệm</span>
+          </div>
+          <div class="hero-stat-item">
+            <span class="hero-stat-number" data-target="50" data-suffix=" km/ngày">0</span>
+            <span class="hero-stat-label">Quãng đường</span>
+          </div>
+          <div class="hero-stat-item">
+            <span class="hero-stat-number" data-target="10" data-suffix="+ bài">0</span>
+            <span class="hero-stat-label">Review thực tế</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Visual Card -->
+      <div class="hero-visual">
+        <div class="hero-bike-card">
+          <div class="bike-card-inner">
+            <div class="bike-emoji">🚴</div>
+            <div class="bike-card-title">Giant Rincon 2</div>
+            <div class="bike-card-sub">Bộ đôi tin cậy hơn 5 năm qua</div>
+
+            <div class="bike-card-stats">
+              <div class="bike-mini-stat">
+                <div class="bike-mini-stat-val">Deore</div>
+                <div class="bike-mini-stat-label">M6100 12s</div>
+              </div>
+              <div class="bike-mini-stat">
+                <div class="bike-mini-stat-val">Koozer</div>
+                <div class="bike-mini-stat-label">XM450 Hub</div>
+              </div>
+              <div class="bike-mini-stat">
+                <div class="bike-mini-stat-val">Squirt</div>
+                <div class="bike-mini-stat-label">Wax lube</div>
+              </div>
+              <div class="bike-mini-stat">
+                <div class="bike-mini-stat-val">Thủ Đức</div>
+                <div class="bike-mini-stat-label">TP.HCM</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FEATURES STRIP ========== -->
+<section class="features-strip">
+  <div class="container">
+    <div class="features-grid">
+      <div class="feature-item reveal">
+        <div class="feature-icon">🛠️</div>
+        <div class="feature-title">Tự bảo trì</div>
+        <div class="feature-desc">Hướng dẫn tự sửa chữa, bảo dưỡng xe tại nhà không cần thợ.</div>
+      </div>
+      <div class="feature-item reveal">
+        <div class="feature-icon">⭐</div>
+        <div class="feature-title">Review thật</div>
+        <div class="feature-desc">Đánh giá sản phẩm sau khi thực tế sử dụng hàng ngày, không lý thuyết.</div>
+      </div>
+      <div class="feature-item reveal">
+        <div class="feature-icon">🏙️</div>
+        <div class="feature-title">Góc nhìn đô thị</div>
+        <div class="feature-desc">Kinh nghiệm đạp xe trong điều kiện đường phố Việt Nam thực tế.</div>
+      </div>
+      <div class="feature-item reveal">
+        <div class="feature-icon">💡</div>
+        <div class="feature-title">Cho người mới</div>
+        <div class="feature-desc">Giải thích dễ hiểu, không dùng thuật ngữ kỹ thuật khó nhớ.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== LATEST POSTS ========== -->
+<section class="posts-section" id="bai-viet">
+  <div class="container">
+    <div class="section-header">
+      <div>
+        <div class="section-label">📝 Bài viết mới nhất</div>
+        <h2 class="section-title">Từ trải nghiệm thực tế</h2>
+      </div>
+      <a href="blog.html" class="btn btn-outline btn-sm">Xem tất cả →</a>
+    </div>
+
+    <div class="posts-grid">
+      <!-- Featured post -->
+      <article class="post-card featured reveal">
+        <div class="post-card-thumb">
+          <div class="post-card-thumb-placeholder">🚵</div>
+        </div>
+        <div class="post-card-body">
+          <div class="post-meta">
+            <span class="tag tag-green">Trải nghiệm</span>
+            <span class="post-date">Tháng 8, 2025</span>
+          </div>
+          <h3 class="post-title">
+            <a href="posts/5-nam-dap-xe-di-lam.html">5 năm đạp xe 50km/ngày đi làm — những gì thực sự xảy ra với cơ thể và chiếc xe</a>
+          </h3>
+          <p class="post-excerpt">
+            Từ tháng 8/2020, tôi bắt đầu đạp xe đi làm mỗi ngày với quãng đường 50–52 km. Đây là những điều tôi học được sau hơn 5 năm: về thể lực, về bảo trì xe, và về cách giữ vững thói quen này...
+          </p>
+          <a href="posts/5-nam-dap-xe-di-lam.html" class="post-read-more">Đọc tiếp →</a>
+        </div>
+      </article>
+
+      <!-- Sidebar posts -->
+      <div class="posts-sidebar">
+        <article class="post-card-mini reveal">
+          <div class="post-meta">
+            <span class="tag tag-cyan">Review</span>
+            <span class="post-date">Tháng 7, 2025</span>
+          </div>
+          <h3 class="post-title">
+            <a href="posts/squirt-vs-rockbros-lube.html">Squirt Wax Lube vs Rockbros: Dầu nào tốt hơn cho xe đạp đi làm?</a>
+          </h3>
+          <a href="posts/squirt-vs-rockbros-lube.html" class="post-read-more">Đọc →</a>
+        </article>
+
+        <article class="post-card-mini reveal">
+          <div class="post-meta">
+            <span class="tag tag-orange">Hướng dẫn</span>
+            <span class="post-date">Tháng 6, 2025</span>
+          </div>
+          <h3 class="post-title">
+            <a href="posts/tu-pha-degreaser.html">Tự pha dung dịch tẩy dầu xích xe đạp tại nhà — nhanh, rẻ, an toàn</a>
+          </h3>
+          <a href="posts/tu-pha-degreaser.html" class="post-read-more">Đọc →</a>
+        </article>
+
+        <article class="post-card-mini reveal">
+          <div class="post-meta">
+            <span class="tag tag-gray">Cảnh báo</span>
+            <span class="post-date">Tháng 5, 2025</span>
+          </div>
+          <h3 class="post-title">
+            <a href="posts/xe-ford-nhai-shopee.html">Cách nhận biết xe đạp Ford nhái đang bán tràn lan trên Shopee</a>
+          </h3>
+          <a href="posts/xe-ford-nhai-shopee.html" class="post-read-more">Đọc →</a>
+        </article>
+
+        <article class="post-card-mini reveal">
+          <div class="post-meta">
+            <span class="tag tag-cyan">So sánh</span>
+            <span class="post-date">Tháng 4, 2025</span>
+          </div>
+          <h3 class="post-title">
+            <a href="posts/sen-xich-kmc-vs-ztto.html">KMC, ZTTO, Toopre, Bucklos: Chọn sên xích nào cho xe đạp đi làm?</a>
+          </h3>
+          <a href="posts/sen-xich-kmc-vs-ztto.html" class="post-read-more">Đọc →</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== REVIEWS SECTION ========== -->
+<section class="reviews-section" id="review">
+  <div class="container">
+    <div class="section-header reveal">
+      <div>
+        <div class="section-label">⭐ Review sản phẩm</div>
+        <h2 class="section-title">Đã thực tế dùng qua</h2>
+        <p class="section-subtitle">Tôi chỉ review những gì đã dùng thực tế — không review theo quảng cáo của nhà sản xuất.</p>
+      </div>
+      <a href="reviews.html" class="btn btn-outline btn-sm">Xem tất cả →</a>
+    </div>
+
+    <!-- Affiliate disclaimer -->
+    <div class="affiliate-banner reveal">
+      <span class="affiliate-banner-icon">⚠️</span>
+      <span>Một số liên kết bên dưới là <strong>liên kết tiếp thị (affiliate link)</strong>. Khi bạn mua qua link này, tôi nhận được một khoản hoa hồng nhỏ — không tốn thêm tiền của bạn. Điều này giúp tôi duy trì website. Mọi đánh giá đều trung thực theo trải nghiệm thực tế.</span>
+    </div>
+
+    <div class="reviews-grid">
+      <div class="review-card reveal">
+        <div class="review-icon">🦵</div>
+        <div>
+          <span class="tag tag-green">Bộ đề số</span>
+          <span class="affiliate-chip">🔗 Affiliate</span>
+        </div>
+        <div class="review-rating">★★★★★</div>
+        <div class="review-title">Shimano Deore M6100 12 tốc độ</div>
+        <div class="review-desc">Đây là bộ nâng cấp đáng tiền nhất tôi từng làm cho Giant Rincon. Chuyển số cực kỳ mượt, bền bỉ trong điều kiện đi hàng ngày dưới mưa và bụi đường.</div>
+        <div class="review-price-row">
+          <span class="review-price">~2.500.000đ</span>
+          <a href="reviews.html#deore-m6100" class="btn btn-sm btn-outline">Đọc review →</a>
+        </div>
+      </div>
+
+      <div class="review-card reveal">
+        <div class="review-icon">⚗️</div>
+        <div>
+          <span class="tag tag-cyan">Dầu xích</span>
+          <span class="affiliate-chip">🔗 Affiliate</span>
+        </div>
+        <div class="review-rating">★★★★☆</div>
+        <div class="review-title">Squirt Wax Chain Lube</div>
+        <div class="review-desc">Dầu gốc sáp tổng hợp, xích sạch bóng, ít bám bụi. Đắt hơn Rockbros nhưng xứng đáng nếu bạn ngại vệ sinh xích thường xuyên. Nhược điểm: dễ trôi khi đi mưa lớn.</div>
+        <div class="review-price-row">
+          <span class="review-price">~270.000đ/120ml</span>
+          <a href="posts/squirt-vs-rockbros-lube.html" class="btn btn-sm btn-outline">Đọc review →</a>
+        </div>
+      </div>
+
+      <div class="review-card reveal">
+        <div class="review-icon">⌚</div>
+        <div>
+          <span class="tag tag-orange">Đồng hồ</span>
+          <span class="affiliate-chip">🔗 Affiliate</span>
+        </div>
+        <div class="review-rating">★★★☆☆</div>
+        <div class="review-title">Mibro GS Pro 2</div>
+        <div class="review-desc">Smartwatch giá rẻ cho người đạp xe. GPS hoạt động tốt ở chế độ Outdoor Cycling. Lưu ý: chế độ MTB không tự bật GPS — cần bật thủ công. Pin tốt, màn hình rõ ngoài trời.</div>
+        <div class="review-price-row">
+          <span class="review-price">~700.000đ</span>
+          <a href="reviews.html#mibro-gs-pro-2" class="btn btn-sm btn-outline">Đọc review →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== ABOUT PREVIEW ========== -->
+<section class="about-section" id="ve-toi">
+  <div class="container">
+    <div class="about-grid">
+      <div class="reveal">
+        <div class="section-label">👤 Về tôi</div>
+        <h2 class="section-title">Người đi làm bằng xe đạp, không phải vận động viên</h2>
+        <p style="color: var(--text-secondary); margin-bottom: 32px;">Tôi không phải tay đua chuyên nghiệp. Tôi chỉ là người chọn xe đạp làm phương tiện đi làm hàng ngày từ năm 2020 — và học mọi thứ theo cách thực tế nhất: thử và sai.</p>
+        <a href="about.html" class="btn btn-outline">Đọc câu chuyện của tôi →</a>
+      </div>
+
+      <div class="about-timeline reveal">
+        <div class="timeline-item">
+          <div class="timeline-line">
+            <div class="timeline-dot"></div>
+            <div class="timeline-connector"></div>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-year">08/2020</div>
+            <div class="timeline-text">Bắt đầu đạp xe đi làm lần đầu. Chặng đường 50 km/ngày ở khu vực Thủ Đức, TP.HCM.</div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-line">
+            <div class="timeline-dot"></div>
+            <div class="timeline-connector"></div>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-year">2021–2022</div>
+            <div class="timeline-text">Bắt đầu tự học bảo trì, sửa chữa. Nâng cấp dần từng bộ phận trên Giant Rincon 2.</div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-line">
+            <div class="timeline-dot"></div>
+            <div class="timeline-connector"></div>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-year">2023–2024</div>
+            <div class="timeline-text">Nâng cấp lên Deore M6100 12s, hub Koozer XM450, BB Gineyea. Thử nghiệm nhiều loại dầu xích, sên.</div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-line">
+            <div class="timeline-dot"></div>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-year">2025 → Nay</div>
+            <div class="timeline-text">Lập blog chia sẻ kinh nghiệm thực tế cho người dùng phổ thông muốn đạp xe đi làm.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CTA / NEWSLETTER ========== -->
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-inner reveal">
+      <div class="section-label">📬 Theo dõi</div>
+      <h2 class="section-title">Không bỏ lỡ bài viết mới</h2>
+      <p class="section-subtitle">Tôi viết về kinh nghiệm thực tế đạp xe hàng ngày — không spam, không quảng cáo lố.</p>
+      <div style="margin-top: 32px; display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
+        <a href="blog.html" class="btn btn-primary" id="cta-blog-btn">📖 Đọc tất cả bài viết</a>
+        <a href="reviews.html" class="btn btn-outline" id="cta-reviews-btn">⭐ Xem review sản phẩm</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <!-- Brand -->
+      <div>
+        <a href="index.html" class="nav-logo" style="margin-bottom: 12px; display: inline-flex;">
+          <div class="nav-logo-icon">🚴</div>
+          <div class="nav-logo-text">
+            Đạp Xe Hàng Ngày
+            <span class="nav-logo-sub">Trải nghiệm thực tế</span>
+          </div>
+        </a>
+        <p class="footer-brand-desc">Blog chia sẻ kinh nghiệm đạp xe đi làm hàng ngày, tự bảo trì và review sản phẩm thực tế từ người dùng phổ thông tại Việt Nam.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook" title="Facebook">📘</a>
+          <a href="#" aria-label="YouTube" title="YouTube">▶️</a>
+        </div>
+      </div>
+
+      <!-- Navigation -->
+      <div>
+        <div class="footer-col-title">Nội dung</div>
+        <ul class="footer-links">
+          <li><a href="blog.html">Bài viết mới nhất</a></li>
+          <li><a href="reviews.html">Review sản phẩm</a></li>
+          <li><a href="guides.html">Hướng dẫn người mới</a></li>
+          <li><a href="about.html">Về tôi</a></li>
+        </ul>
+      </div>
+
+      <!-- Topics -->
+      <div>
+        <div class="footer-col-title">Chủ đề</div>
+        <ul class="footer-links">
+          <li><a href="blog.html#di-lam">Đạp xe đi làm</a></li>
+          <li><a href="blog.html#bao-tri">Tự bảo trì xe</a></li>
+          <li><a href="blog.html#linh-kien">Linh kiện & Phụ kiện</a></li>
+          <li><a href="blog.html#cho-nguoi-moi">Cho người mới bắt đầu</a></li>
+        </ul>
+      </div>
+
+      <!-- Legal -->
+      <div>
+        <div class="footer-col-title">Pháp lý</div>
+        <ul class="footer-links">
+          <li><a href="legal/disclosure.html">Chính sách liên kết</a></li>
+          <li><a href="legal/privacy-policy.html">Chính sách bảo mật</a></li>
+          <li><a href="legal/terms.html">Điều khoản sử dụng</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2025 Đạp Xe Hàng Ngày. Nội dung thuộc bản quyền tác giả.</p>
+      <div class="footer-legal">
+        <a href="legal/disclosure.html">Affiliate Disclosure</a>
+        <a href="legal/privacy-policy.html">Privacy Policy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Back to top -->
+<button id="backToTop" aria-label="Về đầu trang" style="position:fixed;bottom:24px;right:24px;width:44px;height:44px;border-radius:50%;background:var(--accent-primary);color:#0f1117;border:none;font-size:20px;cursor:pointer;opacity:0;transition:opacity 0.3s;z-index:999;display:flex;align-items:center;justify-content:center;">↑</button>
+
+<script src="js/main.js"></script>
+</body>
+</html>
