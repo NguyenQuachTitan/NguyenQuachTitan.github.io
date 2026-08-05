@@ -6,7 +6,7 @@ Blog chia sẻ kinh nghiệm đạp xe đi làm hàng ngày, tự bảo trì xe 
 
 ## Nội dung
 
-- 🚵 Trải nghiệm đạp xe đi làm 50km/ngày từ 08/2020
+- 🚵 Trải nghiệm đạp xe đi làm từ 08/2020, hiện tại khoảng hơn 50km/ngày
 - 🔧 Hướng dẫn tự bảo trì, sửa chữa xe đạp
 - ⭐ Review linh kiện và phụ kiện thực tế
 - 📚 Kiến thức cơ bản cho người mới bắt đầu
