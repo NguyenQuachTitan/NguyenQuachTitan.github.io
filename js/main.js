@@ -1,3 +1,24 @@
+﻿// ---- Dynamic years of cycling calculation from Aug 2020 ----
+function calculateCyclingYears() {
+  const startDate = new Date(2020, 7, 1); // Month 7 is August (0-indexed)
+  const now = new Date();
+  let years = now.getFullYear() - startDate.getFullYear();
+  if (now.getMonth() < startDate.getMonth() || (now.getMonth() === startDate.getMonth() && now.getDate() < startDate.getDate())) {
+    years--;
+  }
+  return Math.max(1, years);
+}
+
+const currentCyclingYears = calculateCyclingYears();
+
+// Auto update elements with data-cycling-years or data-target for years
+document.querySelectorAll('[data-cycling-years]').forEach(el => {
+  el.textContent = currentCyclingYears;
+});
+document.querySelectorAll('[data-target-years]').forEach(el => {
+  el.dataset.target = currentCyclingYears;
+});
+
 // =========================================================
 // ĐẠP XE HÀNG NGÀY - Main JavaScript
 // =========================================================

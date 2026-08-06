@@ -1,4 +1,4 @@
-# 🚴 Đạp Xe Hàng Ngày
+﻿# 🚴 Đạp Xe Hàng Ngày
 
 **Website:** https://nguyenquachtitan.github.io/CyclingToWorkSite
 
@@ -6,7 +6,7 @@ Blog chia sẻ kinh nghiệm đạp xe đi làm hàng ngày, tự bảo trì xe 
 
 ## Nội dung
 
-- 🚵 Trải nghiệm đạp xe đi làm từ 08/2020, hiện tại khoảng hơn 50km/ngày
+- 🚵 Trải nghiệm đạp xe đi làm từ 08/2020, hiện tại khoảng hơn 50km+/ngày (T2–T6)
 - 🔧 Hướng dẫn tự bảo trì, sửa chữa xe đạp
 - ⭐ Review linh kiện và phụ kiện thực tế
 - 📚 Kiến thức cơ bản cho người mới bắt đầu
